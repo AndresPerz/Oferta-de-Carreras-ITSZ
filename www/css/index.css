@@ -18,6 +18,7 @@ body {
     padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
     text-transform:uppercase;
     width:100%;
+    
 }
 
 /* Portrait layout (default) */
@@ -147,7 +148,7 @@ header img{
 }
 
 .carrera{
-    width: 400px;
+    width: 350px;
     background-color: #ffffff;
     margin-top: 20px;
     margin-left: 20px;
@@ -156,6 +157,7 @@ header img{
     border-color: black;
     color: #3454F7;
     border-radius: 10px;
+    position: relative;
 }
 
 .carrera:hover{
@@ -167,6 +169,7 @@ header img{
 .informacion{
     margin-top: 20px;
     float: left;
+    float: inline-end;
 }
 
 .logoCarrera{
@@ -174,10 +177,33 @@ header img{
 }
 
 .logo{
-    width: 200px;
-    
+    width: 150px;
+
 }
 
 header{
-    margin-bottom: 100px;
+    /* padding-bottom: 80px; */
+}
+
+.formulario{
+    background-color: #b8dbc6;
+    /* width: 350px;
+    height: 300px;*/
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+}
+
+td.top{
+    vertical-align: top;
+}
+
+.sistema{
+    background-color: #dbd9d9;
+    width: 350px;
+    height: auto;
 }
